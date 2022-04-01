@@ -1,0 +1,2 @@
+﻿  debug_view.cpp
+LINK : fatal error LNK1158: 无法运行“rc.exe”
