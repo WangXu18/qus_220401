@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.31025.194
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32526.322
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "uint", "uint\uint.vcxproj", "{8C1E1F59-3635-4A2C-B766-8497F95D991A}"
 EndProject
@@ -28,6 +28,8 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "priority_queue", "priority_queue\priority_queue.vcxproj", "{9AD28507-A731-408E-9B6B-336A1CD8AD7C}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "test_template", "test_template\test_template.vcxproj", "{061E684F-245F-4A14-9A3E-55311461E3CA}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "test_230202", "test_230202\test_230202.vcxproj", "{80A880DE-E8EC-47B9-A776-71016265C1D8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -141,6 +143,14 @@ Global
 		{061E684F-245F-4A14-9A3E-55311461E3CA}.Release|x64.Build.0 = Release|x64
 		{061E684F-245F-4A14-9A3E-55311461E3CA}.Release|x86.ActiveCfg = Release|Win32
 		{061E684F-245F-4A14-9A3E-55311461E3CA}.Release|x86.Build.0 = Release|Win32
+		{80A880DE-E8EC-47B9-A776-71016265C1D8}.Debug|x64.ActiveCfg = Debug|x64
+		{80A880DE-E8EC-47B9-A776-71016265C1D8}.Debug|x64.Build.0 = Debug|x64
+		{80A880DE-E8EC-47B9-A776-71016265C1D8}.Debug|x86.ActiveCfg = Debug|Win32
+		{80A880DE-E8EC-47B9-A776-71016265C1D8}.Debug|x86.Build.0 = Debug|Win32
+		{80A880DE-E8EC-47B9-A776-71016265C1D8}.Release|x64.ActiveCfg = Release|x64
+		{80A880DE-E8EC-47B9-A776-71016265C1D8}.Release|x64.Build.0 = Release|x64
+		{80A880DE-E8EC-47B9-A776-71016265C1D8}.Release|x86.ActiveCfg = Release|Win32
+		{80A880DE-E8EC-47B9-A776-71016265C1D8}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
