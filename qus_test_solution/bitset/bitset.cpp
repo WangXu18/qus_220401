@@ -3,7 +3,18 @@
 
 int main() {
   std::bitset<32> test(123);
+  std::cout << test << std::endl;
   std::cout << test.count() << std::endl;
+
+  if (test.any()) {
+    std::cout << "true binary bit" << std::endl;
+  }
+
+  std::cout << test.size() << std::endl;
+  std::cout << test.to_ulong() << std::endl;
+  std::cout << test.to_ullong() << std::endl;
+  std::cout << test.to_string() << std::endl;
+  std::cout << test.to_string('a', 'b') << std::endl;
 
   /*std::bitset<64> test("0001");
   std::cout << test.count() << std::endl;
