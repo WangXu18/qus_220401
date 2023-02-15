@@ -21,7 +21,13 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="gc1.h">
-      <Filter>源文件</Filter>
+      <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="dl.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
   </ItemGroup>
 </Project>

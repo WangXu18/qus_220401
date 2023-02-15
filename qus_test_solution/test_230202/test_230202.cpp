@@ -142,11 +142,40 @@ public:
   virtual void dd1(int i) {}
 };
 
-int main() {
-  //_CrtSetDbgFlag(_CRTDBG_ALLOC_MEM_DF | _CRTDBG_LEAK_CHECK_DF);
-  basee dr;
-  drii dr1;
+class cvt1 {};
+class cvt2 {
+public:
+  int a;
+};
+class cvt3 {
+  int a;
+  virtual void f() {}
+};
 
+template<class T>
+class cvt_helper : T {
+  virtual void test() {}
+};
+
+template<class T>
+bool has_virtualfunc(T&) {
+  return sizeof(T) == sizeof(cvt_helper<T>);
+}
+
+int main(int argc, char* argv[]) {
+
+  int i = 0;
+  // 判断类有没有虚函数
+  /*cvt1 t1;
+  cvt2 t2;
+  cvt3 t3;
+  std::cout << has_virtualfunc(t1) << std::endl;
+  std::cout << has_virtualfunc(t2) << std::endl;
+  std::cout << has_virtualfunc(t3) << std::endl;*/
+  
+  //_CrtSetDbgFlag(_CRTDBG_ALLOC_MEM_DF | _CRTDBG_LEAK_CHECK_DF);
+  /*basee dr;
+  drii dr1;*/
 
   // future
   /*auto f = std::async(std::launch::async,future_test);
